@@ -1,7 +1,4 @@
 const plays = ["rock", "paper", "scissors"];
-const rand = Math.floor(Math.random() * 3);
-
-const computerPlay = plays[rand];
 
 let player;
 let comp;
@@ -19,14 +16,20 @@ const finalScore = document.querySelector("#final");
 
 // Initialization
 rockBtn.addEventListener("click", () => {
+  const rand = Math.floor(Math.random() * 3);
+  const computerPlay = plays[rand];
   const selection = rockBtn.id;
   round(selection, computerPlay);
 });
 paperBtn.addEventListener("click", () => {
+  const rand = Math.floor(Math.random() * 3);
+  const computerPlay = plays[rand];
   const selection = paperBtn.id;
   round(selection, computerPlay);
 });
 scissorsBtn.addEventListener("click", () => {
+  const rand = Math.floor(Math.random() * 3);
+  const computerPlay = plays[rand];
   const selection = scissorsBtn.id;
   round(selection, computerPlay);
 });
@@ -101,4 +104,6 @@ function updateScore(player, computer, gameNum) {
 function game() {
   player = count = comp = 0;
   updateScore(player, comp, count);
+  state.innerHTML = "-";
+  message.innerHTML = "-";
 }
