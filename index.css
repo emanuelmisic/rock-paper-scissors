@@ -1,5 +1,7 @@
 h1 {
     text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -15,13 +17,21 @@ main {
     background-color: #d6edfc;
 }
 
-.score {}
+.score {
+    font-family: 'Courier New', Courier, monospace;
+}
 
-.status {}
+.status {
+    font-family: 'Courier New', Courier, monospace;
+}
 
-.message {}
+.message {
+    font-family: 'Courier New', Courier, monospace;
+}
 
-.game-track {}
+.game-track {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .container {
     margin: auto;
