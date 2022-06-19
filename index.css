@@ -29,3 +29,11 @@ main {
 }
 
 .btn {}
+
+.final {
+    margin: auto;
+}
+
+.final h2 {
+    color: rgb(45, 136, 255);
+}

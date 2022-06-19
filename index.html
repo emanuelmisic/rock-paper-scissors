@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -14,14 +15,17 @@
     <main>
       <div class="display">
         <h2 class="score">Computer: 0 | Player: 0</h2>
-        <h3 class="status">You won!</h3>
-        <h4 class="message">Rock beats Paper!</h4>
-        <h4 class="game-track">Game: #</h4>
+        <h3 class="status">-</h3>
+        <h4 class="message">-</h4>
+        <h4 class="game-track">Game: 0</h4>
       </div>
       <div class="container">
-        <button class="btn">Rock</button>
-        <button class="btn">Paper</button>
-        <button class="btn">Scissors</button>
+        <button id="rock" class="btn">Rock</button>
+        <button id="paper" class="btn">Paper</button>
+        <button id="scissors" class="btn">Scissors</button>
+      </div>
+      <div class="final">
+        <h2 id="final">You Won The Game!</h2>
       </div>
     </main>
   </body>
