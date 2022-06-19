@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    margin: auto;
+    padding: 2em;
+    border: 20px ridge #0b3752;
+    border-radius: 15%;
+    background-color: #d6edfc;
+}
+
+.score {}
+
+.status {}
+
+.message {}
+
+.game-track {}
+
+.container {
+    margin: auto;
+    margin-top: 2em;
+}
+
+.btn {}
